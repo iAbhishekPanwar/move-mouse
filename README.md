@@ -14,58 +14,49 @@ After installing Python, you can follow these steps to set up the project:
 2. Navigate to the directory where you saved the files.
 3. Install the required dependencies using pip:
 
-````bash
+```bash
 pip install -r requirements.txt
-
-# abhishek.py
-
-## Overview
-
+abhishek.py
+Overview
 abhishek.py is the main script that monitors user activity and simulates mouse movement, mouse wheel scroll, and keyboard press to prevent system idle.
 
-## Setup
+Setup
 You can run the script with the following command:
 
-```bash
+bash
+Copy code
 python abhishek.py [options]
-
-## Options
-
+Options
 -s, --seconds: Define in seconds how long to wait after a user is considered idle. Default is 300 seconds.
 -p, --pixels: Set how many pixels the mouse should move. Default is 1.
 -c, --circular: Move the mouse in a circular pattern. By default, it moves diagonally.
 -m, --mode: Available options are keyboard, mouse, both, and scroll. Default is mouse. This option determines the action taken when the user is idle.
 -r, --random: Execute actions based on a random interval between start and stop seconds. Overrides the -s, --seconds argument.
+Example
+To run the script with a mouse delay of 2 seconds:
 
-## Example
-To run the script with mouse at delay of 2 seconds:
-
-```bash
+bash
+Copy code
 python abhishek.py --seconds 2
-
-# mouse.py
-
-## Overview
+mouse.py
+Overview
 mouse.py monitors mouse movement and prints whether the mouse is active or idle.
 
-## Setup
+Setup
 You can run the script with the following command:
 
-```bash
+bash
+Copy code
 python mouse.py
-
-
-# keyboard.py
-## Overview
+keyboard.py
+Overview
 keyboard.py monitors keyboard events and prints the keys pressed.
 
-## Setup
+Setup
 You can run the script with the following command:
 
-```bash
+bash
+Copy code
 python keyboard.py
-
 Feel free to explore and customize the scripts according to your requirements! If you encounter any issues or have suggestions for improvements, please let me know.
-
-
-````
+```
