@@ -46,3 +46,31 @@ python3 abhishek.py
                                   Note: Overwrites the seconds argument.
 
 ```
+
+# mouse.py
+
+## Overview
+
+mouse.py monitors mouse movement and prints whether the mouse is active or idle.
+
+### Setup
+
+You can run the script with the following command:
+
+```
+python3 mouse.py
+```
+
+# keyboard.py
+
+## Overview
+
+keyboard.py monitors keyboard events and prints the keys pressed.
+
+## Setup
+
+You can run the script with the following command:
+
+```
+python keyboard.py
+```
