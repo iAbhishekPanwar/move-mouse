@@ -15,6 +15,12 @@ cd move-mouse
 
 ```
 
+### Run
+
+```
+python3 abhishek.py
+```
+
 ## Optional arguments
 
 ```
@@ -39,10 +45,4 @@ cd move-mouse
                                   random interval between start and stop seconds.
                                   Note: Overwrites the seconds argument.
 
-```
-
-### Run
-
-```
-python3 abhishek.py
 ```
